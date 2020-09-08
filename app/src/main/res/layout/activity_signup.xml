@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bryan.stork.Signup"
+    android:background="@drawable/signup"
+
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+
+        android:paddingTop="70dp"
+        >
+
+        <EditText
+            android:id="@+id/signup_username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape"
+            android:hint="Enter Username"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#a5a5a5"
+
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/shape"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textColorHint ="#a5a5a5"
+            android:hint="Enter Email"
+            android:id="@+id/signup_email"
+
+            />
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#a5a5a5"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/signup_cpassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#a5a5a5"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/signup_paymentnumber"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:hint="Mastercard Number/Visa Card Number/Mobile Money Number"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#a5a5a5"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/pin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:hint="Pin"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#a5a5a5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn"
+            android:onClick="nextclick"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textColor="#ffff" />
+    </LinearLayout>
+
+    </ScrollView>
+    </RelativeLayout>
+

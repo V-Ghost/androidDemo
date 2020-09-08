@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Storker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_option">Option</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="country">country</string>
+    <string name="cargo_tickets">Cargo Tickets</string>
+    <string name="land_tickets">Land Tickets</string>
+    <string name="flight_tickets">Flight Tickets</string>
+
+    <string-array name="From">
+        <item>Australia</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Denmark</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Nigeria</item>
+        <item>Portugal</item>
+        <item>South Africa</item>
+        <item>Spain</item>
+        <item>United States of America (USA)</item>
+    </string-array>
+
+
+    <string-array name="To">
+        <item>Australia</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Denmark</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Nigeria</item>
+        <item>Portugal</item>
+        <item>South Africa</item>
+
+        <item>Spain</item>
+        <item>United States of America (USA)</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string-array name="Weight">
+
+        <item>0 to 20kg</item>
+        <item>21 to 50kg</item>
+        <item>51 to 75kg</item>
+        <item>75 to 100kg</item>
+        <item>Above 100kg</item>
+
+    </string-array>
+
+
+    <string-array name="Area">
+        <item>500cm^2</item>
+        <item>600cm^2</item>
+        <item>700cm^2</item>
+        <item>800cm^2</item>
+        <item>900cm^2</item>
+        <item>1000cm^2</item>
+        <item>1100cm^2</item>
+        <item>1200cm^2</item>
+
+    </string-array>
+
+</resources>

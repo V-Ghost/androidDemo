@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bryan.stork.Land_Tab"
+    android:background="@drawable/cargopic"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+
+            android:paddingTop="70dp"
+            >
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shape"
+                android:hint="weight"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+
+                android:textColorHint="#a5a5a5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/to"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:hint="to"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#a5a5a5"
+
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/from"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:hint="from"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#a5a5a5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/area"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:hint="Volume"
+
+                android:inputType="textPassword|number"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#a5a5a5"
+                android:textSize="20sp" />
+
+
+
+            <Button
+                android:id="@+id/v1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn"
+
+                android:text="Sign Up"
+                android:textAlignment="center"
+                android:textColor="#ffff" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
